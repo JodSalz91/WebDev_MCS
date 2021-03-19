@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Poiret+One&family=Prosto+One&family=Yanone+Kaffeesatz&display=swap');
+
+
+body {
+
+padding-left: 250px;
+
+}
+
+
+
+.header {
+
+width: 700px;
+height:750px;
+background-color: #E5E000;
+
+}
+
+.headingstyle h1 {
+
+	color: white;
+	padding: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+.image-style img {
+
+width: 700px;
+height: 600px;
+background-position: center;
+
+}
+
+.section-links {
+width: 700px;
+height:20px;
+background-color: #E5E000;
+
+}
+
+.links-style h3 {
+
+	color: white;
+	letter-spacing: 3px;
+	text-transform: lowercase;
+	padding:0px 0px 0px 20px;
+    font-family: 'Alegreya', serif;
+}
+
+a {
+	color: white;
+}
+
+.mainstyle {
+
+width:700px;
+padding: 20px;
+font-family: 'Poiret One', cursive;
+
+}
+
+.footer-style {
+
+background-color: #E5E000;
+width: 700px;
+height:60px;
+
+}
+
+.logofooter {
+
+width: 90px;
+height:20px;
+
+}
+
+.logostyle img {
+ 
+ width: 90px;
+ height:20px;
+ padding:20px 0px 0px 20px;
+
+}
+
+.linkfooter  {
+
+width: 350px;
+height:20px;
+padding-left:350px;
+font-family: 'Prosto One', cursive;
+
+}
+
+
+
+
+
