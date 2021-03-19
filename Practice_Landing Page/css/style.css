@@ -65,7 +65,7 @@ font-family: 'Poiret One', cursive;
 
 background-color: #E5E000;
 width: 700px;
-height:60px;
+height:70px;
 
 }
 
@@ -92,6 +92,12 @@ padding-left:350px;
 font-family: 'Prosto One', cursive;
 
 }
+
+.mainpage a {
+
+	color:black;
+}
+
 
 
 
