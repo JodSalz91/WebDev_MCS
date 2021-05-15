@@ -1,0 +1,38 @@
+@import url(reset.css);
+/*блочные элементы всегда начинаются с новой строки, линейные (напр ссылки) располагаются на одной строке. Они не чуствительны к изм ширины и высоты*/
+.outer {
+	font-size: 0;
+}
+
+div {
+	width: 200px;
+	display: inline-block;
+	color: white;
+	vertical-align: top;
+	font-size: 16px;
+
+}
+.one {
+	height: 200px;
+	background-color: black;
+
+}
+
+.two {
+	height: 200px;
+	background-color: green;
+	
+}
+
+a {
+width: 100px;
+height: 100px;
+display:block;
+margin:auto;
+}
+/* картинки это линейно-блочный элемент
+display block превращает линейные элементы в блочные которым можно уже задать размер*/
+img {
+width: 100px;
+display:block;
+}

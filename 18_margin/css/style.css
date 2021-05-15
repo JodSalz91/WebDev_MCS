@@ -1,0 +1,22 @@
+@import url(reset.css);
+.outer {	
+
+width: 600px;
+height: 500px;
+border:5px solid red;
+margin: 20px auto; /*автоматически высчитывает равное расстояние по горизонтали. если добавить px в начале, то добавится оступ по вертикали*/
+
+
+}
+
+.inner {
+	width: 100px;
+	height: 100px;
+	background-color: orange; /*если не прописан border у элемента выше то маржин двигается вместе с родительским элементом */
+/*	margin-top: 50px; 
+	margin-left: 50px;
+	margin-bottom: 50px;*/
+	margin: 50px;
+
+
+}
