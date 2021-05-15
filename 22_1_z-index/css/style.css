@@ -1,0 +1,42 @@
+@import url(reset.css);
+
+.outer {	
+height: 600px;
+border:2px solid red;
+position: relative;
+
+}
+
+.first, .second, .third {	
+
+width: 200px;
+height: 200px;
+border-radius: 100px;
+
+}
+
+.first {
+
+	background-color: red;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 2; /*чем выше число тем приоритетнее в отображении элемент*/
+
+
+}
+
+.second {
+	background-color: blue;
+	position: absolute;
+	bottom: 150px;
+	right: 0;
+	z-index: 1; /*по умолчанию элемент выше наслаивается на второй ниже. свойство z-index позволяет наложить второй элемент поверх первого*/
+}
+
+.third {
+	background-color: green;
+	position: absolute;
+	bottom: 250px;
+	right: 0;
+}

@@ -1,15 +1,15 @@
 @import url(reset.css);
 /*блочные элементы всегда начинаются с новой строки, линейные (напр ссылки) располагаются на одной строке. Они не чуствительны к изм ширины и высоты*/
 .outer {
-	font-size: 0;
+	font-size: 0; /*нужно задать, чтобы убрать пробел между двумя блоками*/
 }
 
 div {
 	width: 200px;
-	display: inline-block;
+	display: inline-block; /*позволят разместить блоки друг за другом*/
 	color: white;
-	vertical-align: top;
-	font-size: 16px;
+	vertical-align: top; /*обязательно сделует задать,чтобы один блок не уезжал вниз в линейной модели построения*/
+	font-size: 16px; /*нужно задать в блоке, тк в родителе стоит параметр 0, чтобы текст отображался */
 
 }
 .one {
@@ -36,3 +36,40 @@ img {
 width: 100px;
 display:block;
 }
+
+
+/* образец оформления
+
+ссылок
+.left {
+  width: 200px;
+  margin-right: 10px;
+  background-color: black;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 16px;
+  vertical-align: top;
+  display: inline-block;
+}
+текста
+.right {
+  width: 590px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 16px;
+  vertical-align: top;
+  display: inline-block;
+}
+самих ссылок
+.left a {
+  margin-top: 5px;
+  display: block;
+}
+
+*/
+
+
+
+
+

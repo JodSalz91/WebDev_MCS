@@ -1,0 +1,55 @@
+@import url(reset.css);
+
+section { 
+	height: 600px;
+	border: 1px solid black; 
+
+ }
+
+ .inner	{
+ 	width: 50px;
+ 	height: 50px;
+ }
+
+ .static .inner {
+
+ 	background-color: red;
+ 	position: static; /* при таком позиционировании элемент не вырывается из flow (потока)*/
+ 	margin: 20px; /*красный квадрат получил отступ по отношению к тексту*/
+ }
+
+
+ .relative .inner {
+
+ 	background-color: orange;
+ 	position: relative; /*при relative элемент также не вырывается из потока*/
+ 	top:50px; /*при relative можно двигать элемент относительно себя при этом элемент ниже будет соблюдать изначальный отступ*/
+ 	left:30px;
+ }
+
+
+ .absolute {
+ 	position: relative; /* добавляют чтобы элемент позиционировался относительно своей секции а не всей страницы*/
+ }
+
+ .absolute .inner {
+
+ 	background-color: violet;
+ 	position: absolute; /* вырывает элемент из потока, при таком позиционировании след элементы перестают видет его место*/
+   
+    /*top: 20px;
+    left: 50px; обычно при absolute так не пишут, при данных параметрах позиционирование осуществляется относительно всей страницы */
+ 	top: 20px; /*отсутпы относительно секции*/
+ 	left: 30px; /* top,left главнее чем bottom и right*/
+ 	bottom:20px; /*использовать только bottom и right если нужно разместить внизу справа*/
+ 	right:0;
+ }
+
+ .fixed .inner {
+
+ 	background-color: green;
+ 	position: fixed; /* вырывает элемент и потока. не появится если не задать параметры bottom / left и тд. размещается относительно всей страницы браузера и фиксируется*/
+    bottom: 200px;
+    right: 100px;
+
+ }
