@@ -1,0 +1,187 @@
+@import url(reset.css);
+
+/*вопрос 1: применение dipsplay: inline block возможно только для div но не для section?*/ 
+
+.head {
+
+width: 1440px;
+height: 60px;
+background-color: red;
+
+}
+
+.headtext {
+
+	position: absolute;
+	width: 820px;
+	height: 20px;
+	left: 20px;
+	top: 20px;
+	color: white;
+	font-family: Helvetica;
+	font-style: normal;
+	
+}
+
+
+.first {
+	width: 400px;
+	height: 800px;
+	left: 70px;
+    top:112px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+    position:absolute;	
+}
+
+.headerone {
+
+	position: absolute;
+	width: 207px;
+	height: 23px;
+	left: 33px;
+	top: 33px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+
+}
+
+.firstcolumn {	
+	
+	position: absolute;
+	width: 334px;
+	height: 670px;
+	left: 33px;
+	top: 97px;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+}
+
+.second {
+	width: 400px;
+	height: 800px;
+	left:520px;
+	top:112px;	
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	position:absolute;
+}
+
+.headertwo {
+
+	position: absolute;
+	width: 207px;
+	height: 23px;
+	left: 33px;
+	top: 33px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.secondcolumn {	
+	
+	position: absolute;
+	width: 334px;
+	height: 670px;
+	left: 33px;
+	top: 97px;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+}
+
+
+
+.third {
+	width: 400px;
+	height: 800px;
+	left: 970px;
+	top:112px;	
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	box-sizing: border-box;
+	position:absolute;
+}
+
+.headerthree {
+
+	position: absolute;
+	width: 207px;
+	height: 23px;
+	left: 33px;
+	top: 33px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.thirdcolumn {	
+	
+	position: absolute;
+	width: 334px;
+	height: 670px;
+	left: 33px;
+	top: 97px;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+}
+
+.last {
+	width: 1440px;
+	height: 60px;
+	top:964px;
+	background-color: red;
+	position:absolute;
+}
+
+	.lasttext {
+
+	position: absolute;
+	width: 820px;
+	height: 20px;
+	left: 20px;
+	top: 20px;
+	color: white;
+	font-family: Helvetica;
+	font-style: normal;
+	
+}
+
+.mainpage {
+
+	position: absolute;
+	width: 30px;
+	height: 20px;
+	right: 50px;
+	bottom: 0px;
+	
+}
+
+a {
+
+	color: yellow;
+}
