@@ -4,7 +4,7 @@
 
 .top {
 
-width: 1440px;
+
 height: 60px;
 background-color: red;
 border:1px solid red;
@@ -31,8 +31,8 @@ left:20px;
 
 .allcolumns {
 	
-	width: 1440px;
-	height: 800px;
+	
+	text-align:center;
 	font-size: 0;
 	box-sizing: border-box;
 	margin-top:50px;
@@ -51,6 +51,8 @@ left:20px;
 	vertical-align: top;
 	box-sizing: border-box;
 	margin-left: 50px;
+	text-align:left;
+
   	
 }
 
@@ -96,6 +98,8 @@ left:20px;
 	vertical-align: top;
 	box-sizing: border-box;
 	margin-left: 50px;
+	text-align:left;
+
 
 
 }
@@ -144,6 +148,8 @@ left:20px;
 	vertical-align: top;
 	box-sizing: border-box;
 	margin-left: 50px;
+	text-align:left;
+
 
 	
 }
@@ -181,7 +187,7 @@ left:20px;
 }
 
 .last {
-	width: 1440px;
+	
 	height: 60px;
 	background-color: red;
 	border:1px solid white;
@@ -202,7 +208,7 @@ left:20px;
 	.lasttext {
 
 	
-	width: 820px;
+	
 	height: 20px;
 	color: white;
 	font-family: Helvetica;
