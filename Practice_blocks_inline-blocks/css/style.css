@@ -41,7 +41,7 @@ left:20px;
 }
 
 
-.first {
+.columns {
 	width: 400px;
 	height: 800px;
 	border: 5px solid #E5E000;
@@ -52,139 +52,38 @@ left:20px;
 	box-sizing: border-box;
 	margin-left: 50px;
 	text-align:left;
+	padding:20px;
 
   	
 }
 
-.headerone {
 
-	position: relative;
-	width: 207px;
-	height: 23px;
-	left: 33px;
-	top: 33px;
+
+.headers {
+
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 23px;
+	margin-bottom: 40px;
 
 }
 
-.firstcolumn {	
+.textinside {	
 	
 	
-	width: 334px;
-	height: 670px;
-	left: 33px;
-	top: 97px;
 	font-family: Times New Roman;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 23px;
 	align-items: center;
-	position:relative;
-}
-
-.second {
 	
-	width: 400px;
-	height: 800px;	
-	border: 5px solid #E5E000;
-	box-sizing: border-box;
-	border-radius: 30px;
-	display:inline-block;
-	vertical-align: top;
-	box-sizing: border-box;
-	margin-left: 50px;
-	text-align:left;
-
-
 
 }
 
-.headertwo {
 
-	
-	width: 207px;
-	height: 23px;
-	left: 33px;
-	top: 33px;
-	font-family: Helvetica;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 23px;
-	position:relative;
-}
-
-.secondcolumn {	
-	
-	
-	width: 334px;
-	height: 670px;
-	left: 33px;
-	top: 97px;
-	font-family: Times New Roman;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	line-height: 23px;
-	
-	align-items: center;
-	position:relative;
-}
-
-
-
-.third {
-	width: 400px;
-	height: 800px;
-	border: 5px solid #E5E000;
-	border-radius: 30px;
-	box-sizing: border-box;
-	display: inline-block;
-	vertical-align: top;
-	box-sizing: border-box;
-	margin-left: 50px;
-	text-align:left;
-
-
-	
-}
-
-.headerthree {
-
-	
-	width: 207px;
-	height: 23px;
-	left: 33px;
-	top: 33px;
-	font-family: Helvetica;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 23px;
-	position:relative;
-}
-
-.thirdcolumn {	
-	
-	
-	width: 334px;
-	height: 670px;
-	left: 33px;
-	top: 97px;
-	font-family: Times New Roman;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	line-height: 23px;
-	
-	align-items: center;
-	position:relative;
-}
 
 .last {
 	
