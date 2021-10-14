@@ -52,11 +52,14 @@ left:20px;
 	box-sizing: border-box;
 	margin-left: 50px;
 	text-align:left;
-	padding:20px;
-
-  	
+	padding:20px; 	
 }
 
+.columns:first-child {
+
+margin-left:-50px;
+
+}
 
 
 .headers {
