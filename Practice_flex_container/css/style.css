@@ -6,7 +6,7 @@ height: 140px;
 width: 1440px;
 box-sizing: border-box;
 border:1px solid red;
-position:fixed;
+
 /*Хотел применить к header display:flex;
  но не разобрался как расположить текст и ссылки по разные стороны с отступами*/
 
@@ -21,6 +21,7 @@ position:fixed;
 	font-weight: normal;
 	font-size: 50px;
 	margin:40px;
+
 	
 	
  }
@@ -46,52 +47,101 @@ top:40px;
 
 
 
- .picture {
+ .picture-text {
 
 display:flex;
-justify-content:center;
-align-content:center;
-background-size: contain;
-
+justify-content: center;
+align-items: center;
+background-image: url(../img/evian_origins_logo.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 1440px;
+height: 950px;
 
  }
+
+.picture-text h1 {
+
+font-family: Arial;
+font-size: 100px;
+line-height: 115px;
+color:red;
+
+}
+
+
 
 
 .ourwater {
 
-	height: 500px;
- 	display: flex;
- 	box-sizing: border-box;
-	border:1px solid red;
-	justify-content:center;
-	align-items:center;
-
+height: 700px;
+width: 1440px;
+display:flex;
+justify-content:center;
+align-items:center;
 
 }
 
 
-.descrone {
+.textwater {
 
-height: 200px;
-width: 300px;
 border: 3px solid #F8BFC7;
 box-sizing: border-box;
 border-radius: 20px;
-
+width: 992px;
+height: 350px;
 
 }
 
- .threebottles {
+.textwater h1 , p {
 
- 	height: 500px;
- 	display: flex;
+font-family: Arial;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+padding: 5px;
+margin:10px;
+
+}
+
+
+ .bottels {
+
+ 	height: 900px;
+ 	width: 1440px;
+ 	display:flex;
+	justify-content: space-around;
+	align-items: center;
  	box-sizing: border-box;
 	border:1px solid red;
-	justify-content:center;
-	align-items:center;
-
 	
  }
+
+
+ .textforbottels{ 
+
+	height: 200px;
+ 	width: 1440px;
+ 	display:flex;
+	justify-content: space-around;
+	align-items: center;
+ 	box-sizing: border-box;
+	border:1px solid red;
+
+  }
+
+  .textforbottels ul {
+
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	text-align:center;
+	
+
+  }
 
 .descrtwo {
 
