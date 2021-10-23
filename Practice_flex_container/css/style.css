@@ -5,7 +5,6 @@
 height: 140px;
 width: 1440px;
 box-sizing: border-box;
-border:1px solid red;
 
 /*Хотел применить к header display:flex;
  но не разобрался как расположить текст и ссылки по разные стороны с отступами*/
@@ -21,13 +20,13 @@ border:1px solid red;
 	font-weight: normal;
 	font-size: 50px;
 	margin:40px;
-
+	position:fixed;
 	
 	
  }
 
 
- a {
+ .links a {
 
  	color:red;
  	font-family: Arial;
@@ -38,13 +37,11 @@ border:1px solid red;
 
 .links {
 
-position:absolute;
+position:fixed;
 right:20px;
 top:40px;
 
 }
-
-
 
 
  .picture-text {
@@ -116,7 +113,7 @@ margin:10px;
 	justify-content: space-around;
 	align-items: center;
  	box-sizing: border-box;
-	border:1px solid red;
+	
 	
  }
 
@@ -129,7 +126,7 @@ margin:10px;
 	justify-content: space-around;
 	align-items: center;
  	box-sizing: border-box;
-	border:1px solid red;
+	
 
   }
 
@@ -143,11 +140,56 @@ margin:10px;
 
   }
 
-.descrtwo {
+  .textwater img {
 
-height: 200px;
-width: 300px;
-box-sizing: border-box;
+  	float:left;
+  	padding:10px;
+  	margin:40px;
 
+
+  }
+
+.textwater ul {
+
+	font-family: Arial;
+	font-size: 25px;
+	
+}
+
+.copyright { 
+
+width: 1440px;
+height: 140px;
+background-color: #F8BFC7;
+display:flex;
+justify-content:space-between;
+align-items: center;
+ 
+ }
+
+ .copyright p {
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 57px;
+color:white;
+padding:40px;
 
  }
+
+.copyright a {
+
+	padding:40px;
+	color:white;
+	font-size:40px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+
+ 
