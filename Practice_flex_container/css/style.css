@@ -3,7 +3,6 @@
 .header_content { 
 
 height: 140px;
-width: 1440px;
 box-sizing: border-box;
 
 /*Хотел применить к header display:flex;
@@ -53,7 +52,7 @@ background-image: url(../img/evian_origins_logo.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-width: 1440px;
+
 height: 950px;
 
  }
@@ -73,7 +72,7 @@ color:red;
 .ourwater {
 
 height: 700px;
-width: 1440px;
+
 display:flex;
 justify-content:center;
 align-items:center;
@@ -108,7 +107,7 @@ margin:10px;
  .bottels {
 
  	height: 900px;
- 	width: 1440px;
+ 
  	display:flex;
 	justify-content: space-around;
 	align-items: center;
@@ -121,7 +120,7 @@ margin:10px;
  .textforbottels{ 
 
 	height: 200px;
- 	width: 1440px;
+ 	
  	display:flex;
 	justify-content: space-around;
 	align-items: center;
@@ -158,7 +157,6 @@ margin:10px;
 
 .copyright { 
 
-width: 1440px;
 height: 140px;
 background-color: #F8BFC7;
 display:flex;
