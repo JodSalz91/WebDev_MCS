@@ -67,8 +67,6 @@ color:red;
 }
 
 
-
-
 .ourwater {
 
 height: 700px;
@@ -87,6 +85,7 @@ box-sizing: border-box;
 border-radius: 20px;
 width: 992px;
 height: 350px;
+padding:10px;
 
 }
 
@@ -98,7 +97,6 @@ line-height: 29px;
 display: flex;
 align-items: center;
 letter-spacing: 0.05em;
-padding: 5px;
 margin:10px;
 
 }
@@ -106,38 +104,35 @@ margin:10px;
 
  .bottels {
 
- 	height: 900px;
- 
  	display:flex;
-	justify-content: space-around;
-	align-items: center;
- 	box-sizing: border-box;
-	
+	justify-content: space-between;
+	align-items:center;
 	
  }
 
+ .bottle {
 
- .textforbottels{ 
-
-	height: 200px;
- 	
  	display:flex;
-	justify-content: space-around;
-	align-items: center;
- 	box-sizing: border-box;
-	
+ 	flex-direction:column;
+ }
 
-  }
+.bottle p {
 
-  .textforbottels ul {
+	margin-top:40px;
+
+
+}
+
+.bottle ul {
 
 	font-family: Arial;
 	font-size: 25px;
 	line-height: 29px;
 	text-align:center;
-	
 
-  }
+
+}
+
 
   .textwater img {
 
