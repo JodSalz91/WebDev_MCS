@@ -1,0 +1,28 @@
+@import url(reset.css);
+
+div {
+
+	width: 200px;
+	height: 200px;
+	background-color:blue;
+	/*transition-property:background-color;*/ /*если нужно чтобы плавно менялся только цвет*/
+	/*transition-property:all; /*значение по умолчанию, когда плавно меняется все*/
+	/*transition-duration:1s; /*время перехода из одного состояния в другое*/
+	/*transition-delay:.5s; /*задает через сколько начнется изменение*/
+	/*transition-timing-function:linear; /*задает как будет происходить аниманция по времени, равномерно, сначала быстро потом медленно и тд*/
+	/*есть linear, ease-out, ease in out*/
+	/*transition-timing-function: cubic-bezier(.12, .05, .82, 0)
+	/*кубик бизье задает сразу несколько параметров для измеенения во времени. Есть сайт*/
+	transition: all 1s .5s cubic-bezier(.12, .05, .82, 0);
+	/*все параметры для transition можно прописать одной строчкой/*/
+}
+
+
+div:hover { 
+
+width: 300px;
+height: 300px;
+background-color:red;
+/*если добавить transition только в hover, то изм-я будут работать только при наведении, но в обратном направлении уже нет*/
+
+ }

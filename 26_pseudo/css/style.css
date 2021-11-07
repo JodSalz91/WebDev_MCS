@@ -1,0 +1,48 @@
+@import url(reset.css);
+
+a {
+
+	display:block;
+	width: 200px;
+	height: 50px;
+	background-color: blue;
+	color:white;
+	text-align:center;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:15px;
+	box-sizing:border-box;
+
+}	
+
+
+a:hover {
+
+	background-color:red;
+}
+
+/*псеводокласс наведения, пишется через двоеточие*/
+
+a:active {
+
+	box-shadow: 0 0 10px grey ;
+	color:yellow;
+}
+
+/* поменяет цвет если нажать*/
+
+a:visited {
+
+	color:lightgrey;
+}
+
+/*окрашивается если уже нажимали*/
+
+a:link {
+
+	background-color: yellow;
+}
+
+/* поменяет цвет если есть источник*/
+
+/* LoVeHAte - расшифровывается как Link, Visited, Hover и Active*/
