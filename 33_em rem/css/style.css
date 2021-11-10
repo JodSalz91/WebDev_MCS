@@ -1,0 +1,31 @@
+@import url(reset.css);
+
+html {
+
+	font-size:30px;
+}
+
+.outer {
+
+	font-size:30px;
+}
+
+.outer h1 {
+
+	font-size:.8em;
+	/*показывает какой размер текста нужно взять относительно
+	родителя .5em означает 10px*/
+}
+
+.outer2{
+	font-size:30px;
+}
+
+.outer2 p {
+
+	font-size:0.5rem;
+/*задает размер текста относительно самого корневого элемента html*/
+}
+
+
+
