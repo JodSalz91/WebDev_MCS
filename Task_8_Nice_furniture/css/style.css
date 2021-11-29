@@ -3,9 +3,9 @@
 
 .style { 
 
-width: 100%;
+max-width: 1500px;
 background-color: #FFE138;
-min-height: 160px;
+height: 20vh;
 text-align:center;
 display:flex;
 justify-content:center;
@@ -25,7 +25,7 @@ line-height: 57px;
 	min-height:500px;
 	display:flex;
 	justify-content:space-between;
-	align-items:stretch;
+	align-items:flex-start;
 	padding-top: 70px;
 	padding-bottom: 70px;
 
@@ -52,6 +52,7 @@ line-height: 57px;
 	width: calc((100% - 40px)/3);
 	border: 1px solid #000000;
 	box-sizing: border-box;
+
 	
 }
 
