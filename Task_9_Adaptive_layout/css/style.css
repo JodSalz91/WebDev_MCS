@@ -66,6 +66,26 @@ margin-top:30px;
 	display:none;
 }
 
+ a {
+
+	
+	color:white;
+	font-size:10px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+
+}
+
+
+footer {
+
+	position:relative;
+}
+
+
+
+
 
 @media screen and (min-width: 376px) {
 
@@ -121,6 +141,23 @@ align-items: center;
 
 .for_small_screens h2{
 	display:none;
+}
+
+ a {
+
+	color:white;
+	font-size:30px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	position:absolute;
+	bottom:20px;
+	right:20px;
+
+}
+
+footer {
+	position:relative;
 }
 
 
