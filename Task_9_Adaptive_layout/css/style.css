@@ -61,10 +61,7 @@ margin-top:30px;
 
  }
 
-.for_big_screens h2 {
 
-	display:none;
-}
 
  a {
 
@@ -85,19 +82,17 @@ footer {
 
 
 
-
-
 @media screen and (min-width: 376px) {
 
 .layout {
 	
 	border:2px solid black;
-	max-width:1024px;
+	max-width:100%;
 }
 
 .start_end {
 
-	max-width: 1024px;
+	max-width: 100%;
 	height:50px;
 	background-color: #0000FF;
 	padding-left:30px;
