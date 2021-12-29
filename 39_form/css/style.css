@@ -1,0 +1,78 @@
+@import url(reset.css);
+
+.page {
+	font-family: arial, Helvetica, sans-serif;
+}
+
+form {
+	width: 80%;
+	margin: auto;
+}
+
+input, select, textarea {
+
+	display:block;
+	width: 100%;
+	font-size: 20px;
+	color: green;
+	border: 1px solid black;
+}
+
+input {
+
+	height: 30px;
+
+}
+
+label, span {
+	line-height: 2rem;
+	font-size: 20px;
+}
+
+label {
+
+	display:block;
+}
+
+input:focus, textarea:focus, select:focus {
+
+	outline:none;
+}
+
+/*outline позволяет модифицировать выделение текста в форме, в данном случае при нажатии на форму она не будет подсвечена*/
+
+
+input[type="radio"], input[type="checkbox"] {
+	display: inline-block;
+	width: 20px;
+	vertical-align: middle;
+}
+/*отдельным input задали display inline block, чтобы они разместились на отдельной строке и не сливались с другими*/
+
+textarea {
+	height: 300px;
+}
+
+input[type="submit"] {
+	background-color: white;
+	color: black;
+	height: 50px;
+	cursor:pointer;
+
+}
+
+input[type="submit"]:hover {
+	background-color: black;
+	color:white;
+}
+
+@media screen and (min-width: 720px) {
+	form {
+		display:flex;
+		justify-content: space-between;
+	}
+
+	.column {
+		width: 49%;
+	}
+}

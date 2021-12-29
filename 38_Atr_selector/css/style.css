@@ -1,0 +1,11 @@
+@import url(reset.css);
+
+img[src="https://cdn.britannica.com/05/155405-050-F8969EE6/Spring-flowers-fruit-trees-bloom.jpg"]
+	{width:300px;
+
+	}
+
+img[alt="leto"]{
+
+	width: 600px; 
+}

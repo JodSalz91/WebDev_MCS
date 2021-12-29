@@ -1,0 +1,171 @@
+@import url(reset.css);
+
+
+.common_style {
+
+	width: 100%;
+
+}
+
+
+
+.header_style {
+
+	width: 100%;
+	height: 90px;
+	background-color: #F8BFC7;
+	border:1px solid black;
+	
+
+}
+
+.nav_style {
+
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	
+}
+
+.first_list {
+
+	width: 30%;
+	display:flex;
+	align-items:center;
+	justify-content: space-around;
+	text-align:center;
+	margin: 20px;
+
+}
+
+
+.second_list {
+
+	margin-right:50px;
+}
+
+
+.mainpart {
+
+	width: 100%;
+	min-height: 850px;
+	background-image: url(https://s3-alpha-sig.figma.com/img/cfb6/a607/9c6825a0d90b29985849bcfbef764b7c?Expires=1641772800&Signature=OlKObtittoHXsFWA0FDTlvvub8dV3-hPUB8qGJOzygGR07Vs7GZWv8u6f58~q2PO0IaywmDTFuz2ltUvD2cJGqJUAaZ7vbuXZit6r4NU62hDoRvPluzWu0MUspbopDjs1jsVvyOIgaEaU1XEGHXqP~DWwiXgJ9qT~1apzjrA3xmCvC7aH7HS0Yb3VOQf1sxbWLiYaPyL6yqClh7xSgMXHiUnp7SZC-XDD2CkUd1ue5BQ2Cl1WiCHI-B7xWLrNIdqNooP9U1yS63zTVak70vrgftpjRqG5J~J3YhBclgAvkcsBCB8r6eyeQQjuZflZ8Zb0htPcfOxWnrtECRQ8sgDDg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+	background-color: royalblue;
+	background-size:contain;
+	background-repeat: no-repeat;
+	display:flex;
+	align-items:flex-end;
+	justify-content:center;
+	border:1px solid black ;
+	position:relative;
+	
+}
+
+.mainpart h1 {
+
+	margin-bottom:50px;
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 57px;
+	color: #FEB700;
+	
+}
+
+
+.formstyle {
+
+	position: absolute;
+	top:50px;
+	left:40px;
+	width: 20%;
+	background: #F8BFC7;
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 20px;
+
+}
+
+input, label {
+
+	display: block;
+	width:100%;
+	line-height: 2rem;
+	background:none;
+	
+	
+}
+
+input {
+
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	margin-top: 10px;
+	border: none;
+
+}
+
+
+
+label {
+
+	font-family: Times New Roman;
+	font-size: 20px;
+	line-height: 23px;
+	margin-top:10px;
+	color: white;
+}
+
+.personal{
+
+	margin:20px;
+}
+
+.submitstyle {
+
+	width: 200px;
+	height: 60px;
+	background: #FEB700;
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 30px;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+	text-align: right;
+	color: #FFFFFF;
+	position:absolute;
+	top:400px;
+	left:80px;
+}
+
+
+.footer_style {
+
+	width: 100%;
+	height: 90px;
+	background-color: #F8BFC7;
+	border:1px solid black;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	color: #FFFFFF;
+
+}
+
+
+
+
+.footer_style h2 {
+
+margin:20px;
+
+}
