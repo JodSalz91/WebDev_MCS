@@ -15,6 +15,7 @@
 	height: 90px;
 	background-color: #F8BFC7;
 	border:1px solid black;
+
 	
 
 }
@@ -22,6 +23,7 @@
 .nav_style {
 
 	display: flex;
+	flex-wrap: wrap;
 	align-items:center;
 	justify-content: space-between;
 	font-family: Helvetica;
@@ -34,6 +36,7 @@
 
 	width: 30%;
 	display:flex;
+	flex-wrap: wrap;
 	align-items:center;
 	justify-content: space-around;
 	text-align:center;
@@ -51,7 +54,7 @@
 .mainpart {
 
 	width: 100%;
-	min-height: 850px;
+	min-height: 650px;
 	background-image: url(https://s3-alpha-sig.figma.com/img/cfb6/a607/9c6825a0d90b29985849bcfbef764b7c?Expires=1641772800&Signature=OlKObtittoHXsFWA0FDTlvvub8dV3-hPUB8qGJOzygGR07Vs7GZWv8u6f58~q2PO0IaywmDTFuz2ltUvD2cJGqJUAaZ7vbuXZit6r4NU62hDoRvPluzWu0MUspbopDjs1jsVvyOIgaEaU1XEGHXqP~DWwiXgJ9qT~1apzjrA3xmCvC7aH7HS0Yb3VOQf1sxbWLiYaPyL6yqClh7xSgMXHiUnp7SZC-XDD2CkUd1ue5BQ2Cl1WiCHI-B7xWLrNIdqNooP9U1yS63zTVak70vrgftpjRqG5J~J3YhBclgAvkcsBCB8r6eyeQQjuZflZ8Zb0htPcfOxWnrtECRQ8sgDDg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
 	background-color: royalblue;
 	background-size:contain;
@@ -77,10 +80,12 @@
 
 .formstyle {
 
+	display:flex;
+	flex-wrap:wrap;
 	position: absolute;
 	top:50px;
 	left:40px;
-	width: 20%;
+	min-width: 10%;
 	background: #F8BFC7;
 	border: 3px solid #FFFFFF;
 	box-sizing: border-box;
@@ -126,7 +131,7 @@ label {
 
 .submitstyle {
 
-	width: 200px;
+	min-width: 60%;
 	height: 60px;
 	background: #FEB700;
 	border: 3px solid #FFFFFF;
@@ -136,12 +141,16 @@ label {
 	font-size: 20px;
 	line-height: 23px;
 	display: flex;
-	align-items: center;
-	text-align: right;
+	flex-wrap: wrap;
 	color: #FFFFFF;
 	position:absolute;
-	top:400px;
-	left:80px;
+	top:350px;
+	left:30px;
+}
+
+input[type="submit"] {
+
+	color:white;
 }
 
 
@@ -162,10 +171,27 @@ label {
 }
 
 
-
-
 .footer_style h2 {
 
 margin:20px;
 
 }
+
+
+@media screen and (max-width: 720px) {
+	
+	.mainpart h1 {
+
+	
+	text-align:center;
+	font-size: 30px;
+	line-height: 27px;
+	color: #FEB700;
+	
+}
+
+
+	}
+
+
+
