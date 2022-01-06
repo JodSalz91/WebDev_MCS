@@ -30,6 +30,7 @@
 	font-size: 20px;
 	line-height: 23px;
 	
+	
 }
 
 .first_list {
@@ -57,13 +58,13 @@
 	min-height: 650px;
 	background-image: url(https://s3-alpha-sig.figma.com/img/cfb6/a607/9c6825a0d90b29985849bcfbef764b7c?Expires=1641772800&Signature=OlKObtittoHXsFWA0FDTlvvub8dV3-hPUB8qGJOzygGR07Vs7GZWv8u6f58~q2PO0IaywmDTFuz2ltUvD2cJGqJUAaZ7vbuXZit6r4NU62hDoRvPluzWu0MUspbopDjs1jsVvyOIgaEaU1XEGHXqP~DWwiXgJ9qT~1apzjrA3xmCvC7aH7HS0Yb3VOQf1sxbWLiYaPyL6yqClh7xSgMXHiUnp7SZC-XDD2CkUd1ue5BQ2Cl1WiCHI-B7xWLrNIdqNooP9U1yS63zTVak70vrgftpjRqG5J~J3YhBclgAvkcsBCB8r6eyeQQjuZflZ8Zb0htPcfOxWnrtECRQ8sgDDg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
 	background-color: royalblue;
-	background-size:contain;
+	background-size: contain;
 	background-repeat: no-repeat;
-	display:flex;
-	align-items:flex-end;
-	justify-content:center;
-	border:1px solid black ;
-	position:relative;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	border: 1px solid black ;
+	position: relative;
 	
 }
 
@@ -131,7 +132,7 @@ label {
 
 .submitstyle {
 
-	min-width: 60%;
+	max-width: 20%;
 	height: 60px;
 	background: #FEB700;
 	border: 3px solid #FFFFFF;
@@ -144,8 +145,8 @@ label {
 	flex-wrap: wrap;
 	color: #FFFFFF;
 	position:absolute;
-	top:350px;
-	left:30px;
+	top:400px;
+	left:80px;
 }
 
 input[type="submit"] {
@@ -167,7 +168,16 @@ input[type="submit"] {
 	font-size: 20px;
 	line-height: 23px;
 	color: #FFFFFF;
+	position:relative;
 
+}
+
+.footer_style a {
+
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+	color: royalblue;
 }
 
 
@@ -178,20 +188,51 @@ margin:20px;
 }
 
 
+
+
 @media screen and (max-width: 720px) {
 	
 	.mainpart h1 {
 
-	
 	text-align:center;
 	font-size: 30px;
 	line-height: 27px;
 	color: #FEB700;
 	
+	
 }
+
+.submitstyle { 
+
+max-width: 40%;
+
+ }
 
 
 	}
+
+@media screen and (min-width: 1475px) {
+	
+	.mainpart h1 {
+	text-align:center;
+	font-size: 30px;
+	line-height: 27px;
+	color: #FEB700;
+	
+	
+	}
+
+	.mainpart {
+
+	background-position: center;
+	
+
+}
+
+		
+
+}
+
 
 
 
