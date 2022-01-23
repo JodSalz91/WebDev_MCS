@@ -1,0 +1,7 @@
+@import url(reset.css);
+
+iframe[src="http://pa7lux.ru"] {
+
+	width: 500px;
+	height: 1000px;
+}

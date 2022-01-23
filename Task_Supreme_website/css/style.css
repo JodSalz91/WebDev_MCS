@@ -1,0 +1,93 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+
+.main_content {
+
+	width: 100%;
+	min-height: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url(https://d17ol771963kd3.cloudfront.net/assets/bg/2-360004d01f55f5e39d4d9029748ca280.gif);
+	background-size: cover;
+
+}
+
+
+.redblock {
+
+	width: 287px;
+	height: 82px;
+	background-color: red;
+	
+
+}
+
+div[class="redblock"] h2 {
+
+	color: white;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 69px;
+	padding: 10px;
+}
+
+.date { 
+
+	width: 270px;
+	height: 30px;
+	margin:0 -20px;
+
+ }
+
+ div[class="date"] h2 { 
+
+  	color: white;
+  	font-family:'Space Mono', monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	
+  }
+
+
+.list_items {
+
+	width: 307px;
+	height: 315px;
+	
+}
+
+ul {
+
+  	font-family:'Space Mono', monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 35px;
+	color: #FFFFFF;
+}
+
+li {
+
+	padding-top: 10px;
+}
+
+a {
+	color: white;
+	background-color: red;
+}
+
+.icons {
+
+	width: 200px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	
+
+}
