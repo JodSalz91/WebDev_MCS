@@ -42,17 +42,31 @@
  }
 
 
+.main_content { 
 
-img {
+margin: auto;
+
+
+ }
+
+ .picture {
+
+ 	width: calc(100% - 1040px);
+ }
+
+
+.picture img {
 
 	float: left; 
-	margin: 110px;
+	margin: 50px;
+	
 }
 
 
 .description {
 
 	padding-top:20px;
+	padding-bottom:70px;
 }
 
 div[class="description"] h2 {
@@ -60,8 +74,8 @@ div[class="description"] h2 {
 	font-family:'Space Mono', monospace;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 15px;
+	line-height: 15px;
 
 }
 
@@ -71,22 +85,24 @@ font-family: Space Mono;
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
-line-height: 37px;
-padding-top:20px;
+padding-top:10px;
 
 }
 
 div[class="description"] p {
 
-	width: 1100px;
+	width: 1000px;
 	font-family:'Space Mono', monospace;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 20px;
 	line-height: 30px;
-	padding-top:20px;
+	padding-top:60px;
+}
 
-
+#second_p {
+	
+	color: white;
+	background-color: red;
 }
 
 
@@ -96,14 +112,129 @@ div[class="description"] p {
 
 }
 
+.picturenav {
+
+	width:65px;
+	margin-left: 200px;
+	margin-top:-20px;
+	
+}
+
+.arrow img { 
+
+	float:right;
+	padding-top: 5px;
+
+ }
+
+
+
+
 .linkbar {
 
-width: 70vw;
+
 display: flex ;
 flex-direction:row;
 justify-content:space-around;
 align-items: center;
 padding-top:100px;
+margin-left: 100px;
+margin-right: 100px;
 
+
+}
+
+div[class="linkbar"] a {
+
+font-family:'Space Mono', monospace;
+font-style: normal;
+font-weight: normal;
+font-size: 1rem;
+line-height: 30px;
+color: #000000;
+
+}
+
+
+@media screen and (max-width: 750px) {
+	
+	.picture img {
+
+	float: none; 
+	margin: 0px; 
+	padding-bottom:40px;
+	
+	
+	}
+
+	div[class="description"] p {
+
+	width: 400px;
+}
+
+	.main_content { 
+
+	margin: auto;
+	max-width: 1100px;
+
+ }
+
+ .linkbar {
+
+
+display: flex ;
+flex-direction:column;
+justify-content:center;
+align-items: center;
+padding-top:100px;
+
+
+}
+	
+.picture {
+
+ 	
+ 	margin:0px;
+ }
+
+.picturenav {
+
+	position:relative;
+	width:65px;
+	bottom:430px;
+
+}
+
+.description {
+
+
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+
+}
+
+}
+
+@media screen and (min-width: 1400px) {
+
+	div[class="description"] p {
+
+	width: 100%;
+	
+}
+
+.picture {
+
+ 	margin-left:400px;
+ }
+
+ .picturenav {
+
+	width:65px;
+	margin-left: 600px;
+	margin-top:-20px;
+	
+}
 
 }
