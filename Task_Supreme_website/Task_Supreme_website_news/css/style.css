@@ -163,6 +163,7 @@ color: #000000;
 	float: none; 
 	margin: 0px; 
 	padding-bottom:40px;
+	padding-left: 150px;
 	
 	
 	}
@@ -183,10 +184,10 @@ color: #000000;
 
 
 display: flex ;
-flex-direction:column;
-justify-content:center;
+flex-direction: column;
+justify-content: center;
 align-items: center;
-padding-top:100px;
+padding-top: 100px;
 
 
 }
@@ -194,24 +195,31 @@ padding-top:100px;
 .picture {
 
  	
- 	margin:0px;
+ 	margin: 0px;
  }
 
 .picturenav {
 
-	position:relative;
-	width:65px;
-	bottom:430px;
+	position: relative;
+	width: 65px;
+	bottom: 430px;
+	padding-left: 150px;
 
 }
 
 .description {
 
 
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 150px;
 
+}
+
+#second_p {
+	
+	margin-left: 150px;
 }
 
 }
