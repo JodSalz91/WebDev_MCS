@@ -1,0 +1,167 @@
+@import url(reset.css);
+
+
+.bodycontent {
+
+	width: 100%;
+	min-height: 1500px;
+	background: black;	
+}
+
+.logo_nav {
+
+	min-height: 50px;
+	padding: 40px 60px 40px 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.navlist li { 
+
+display: inline;
+margin-right: 10px;
+
+ }
+
+ .navlist a {
+
+color: white;
+
+ }
+
+ .icons li {
+
+display: inline;
+margin-right: 6px;
+
+ }
+
+ #news {
+
+ 	color: #A37846;
+ 	
+ }
+
+ #lang {
+
+ 	color: white;
+ 	position: relative;
+    bottom: 5px;
+ }
+
+ #part {
+
+	position: relative;
+    right: 5px;
+
+ }
+
+ #search {
+ 	position: relative;
+    bottom: 3px;
+ }
+
+.headwindow { 
+
+max-width: 1320px;
+max-height: 56px;
+background-color: white;
+margin: auto;
+border-radius: 10px;
+border: 0.1px solid white;
+box-sizing: border-box;
+position: relative;
+
+
+ }
+
+ .currency {
+
+ 	width: 134px;
+ 	height: 20px;
+ 	padding: 20px;
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space space-between;
+ }
+
+ .currencylist {
+
+ 	padding-right: 13px;
+ }
+
+.currencylist li {
+
+	display: inline;
+	color: black;
+
+}
+
+.text_switcher { 
+
+position: absolute;
+width: 290px;
+height: 5px;
+left: 1019px;
+bottom: 28px;
+
+
+ }
+
+ .switcher li {
+
+ 	display:  inline;
+ 	margin-right: 5px;
+ 	color: #9CA1A9;
+
+ }
+
+ .switcher {
+
+ 	margin: -10px;
+ }
+
+ #circle2 {
+
+ 	position: relative;
+    right: 50px;
+    bottom: -2px;
+
+ }
+
+ #rectangle {
+
+ 	position: relative;
+ 	top: 4px;
+ }
+
+
+.mainsection {
+
+max-width: 1320px;
+height: 1310px;
+margin-top: 40px;
+background: #F2F2F2;
+border-radius: 10px 10px 0px 0px;
+margin-left: 60px;
+margin-right: 60px;
+padding-top: 60px;
+
+
+}
+
+.first_block { 
+
+width: 1200px;
+height: 250px;
+margin: auto;
+background: #FFFFFF;
+border: 5px solid #A37846;
+box-sizing: border-box;
+border-radius: 10px;
+
+
+ }
+

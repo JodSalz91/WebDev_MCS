@@ -1,0 +1,71 @@
+header h1, header h2 {
+  font-size: 1.5rem;
+  color: #030303;
+}
+header h2 {
+  font-size: 1.3rem;
+}
+header > time {
+  color: whitesmoke;
+}
+header > span {
+  font-size: 0.8rem;
+}
+
+.blog-post {
+  padding: 2em 0;
+}
+.blog-post_header {
+  padding: 1em 0;
+}
+.blog-post_header--collapsed {
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: purple;
+}
+a:active {
+  text-decoration: rebeccapurple;
+}
+a:visited {
+  text-decoration: plum;
+}
+
+article {
+  border: 2px solid black;
+}
+
+section {
+  border: 2px solid white;
+}
+
+article {
+  min-width: 200.34px;
+}
+
+article {
+  font-family: "Helvetica Neue";
+  background-image: url("/images/background.png");
+}
+
+article {
+  border: 1px solid black;
+  -ms-flex: 1;
+}
+
+body {
+  background-color: rgba(255, 144, 230, 0.6);
+}
+
+section {
+  min-width: 50%;
+  border: 1px solid black;
+}
+
+footer {
+  border: 1px solid black;
+}

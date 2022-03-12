@@ -1,0 +1,152 @@
+
+@use "sass:list"; //* чтобы считывать списки //*
+@use "sass:map"; //* чтобы считывать словари //*
+
+header {
+
+    h1, h2 {
+        font-size: 1.5rem;
+        color: rgb(3, 3, 3);
+    }
+
+    h2 {
+
+        font-size: 1.3rem;
+
+    }
+
+>  {
+    
+    time {
+    color: whitesmoke;
+    }
+
+    span {
+        font-size: 0.8rem;
+    }
+}
+}
+
+.blog-post {
+    padding: 2em 0;
+    &_header { 
+        padding: 1em 0;
+        &--collapsed {
+            padding:0;
+
+        }
+
+    }
+}
+
+a {
+    &:link {
+
+        text-decoration: none;
+
+    }
+
+    &:hover {
+
+        text-decoration: purple;
+
+    }
+
+    &:active {
+
+        text-decoration: rebeccapurple;
+
+    }
+
+
+    &:visited {
+
+        text-decoration: plum;
+
+    }
+
+}
+
+//* создание переменных //*
+
+$border_width: 2px; //* глобальная переменная //*
+
+article {
+    $color: black; //* локальная переменная. Недоступна для последующих селекторов //*
+    border: $border_width solid $color;
+
+}
+
+section {
+    border: $border_width solid white;
+
+}
+
+//* типы данных //*
+
+//*числа//*
+
+$width: 200.34px;
+
+article { 
+    min-width: $width;
+
+}
+
+//*строки c кавычками//*
+
+$font_family: "Helvetica Neue";
+$file_name: "background.png";
+
+article { 
+font-family: $font_family;
+background-image: url("/images/#{$file_name}");
+
+}
+
+//*строки без кавычек ( идентификаторы) //*
+
+$type: solid;
+$prefix: -ms;
+article {
+    border: 1px $type black;
+    #{$prefix}-flex: 1;
+}
+
+//*colors цвета//*
+
+//*$bg: #dedede;//*
+$bg: rgba(255, 144, 230, 0.6);
+
+body { 
+
+    background-color: $bg;
+}
+
+//*lists списки//*
+
+$numbers: (12px 40px 50% 1rem);
+$border: (1px solid black);
+
+section {
+    min-width: list.nth($numbers, 3 );
+    border: $border;
+}
+
+//*maps или словари//*
+
+$border_pairs: ("width": 1px, "color": black, "type": solid);
+
+footer {
+    border: map.get($border_pairs, "width") map.get($border_pairs, "type") map.get($border_pairs, "color")
+}
+
+//*boolean values или логические значения//*
+
+$var1: true;
+$var2: false;
+
+//*null или значение отсутствует//*
+
+$no_value: null;
+
