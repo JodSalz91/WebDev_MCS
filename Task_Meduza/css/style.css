@@ -1,5 +1,5 @@
 @import url(reset.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Playfair+Display&family=Raleway:wght@100&display=swap');
 
 .bodycontent {
 
@@ -162,6 +162,104 @@ border: 5px solid #A37846;
 box-sizing: border-box;
 border-radius: 10px;
 
+ }
+
+.fb_description {
+
+	width: 950px;
+    height: 100px;
+    padding: 45px 66px 10px 106px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+
+	color: #000000;
+
+}
+
+
+.time1 {
+
+	width: 96px;
+	height: 18px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	padding: 50px 0px 10px 560px;
+}
+
+.second_block {
+
+	width: 1200px;
+	height: 436px;
+	background: #FFFFFF;
+	border: 1px solid #9CA1A9;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: auto;
+    margin-top: 40px;
+
+
+}
+
+.descr_big {
+	display: inline-block;
+	width: 640px;
+	height: 436px;
+	
+}
+
+.decr_little {
+	display: inline-block;
+	width: 550px;
+	height: 436px;
+	vertical-align: top;
+
+}
+
+
+
+.news1 {
+	display: inline-block;
+	width: 250px;
+	height: 115px;
+	margin: 0px 10px 80px 4px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.text_big { 
+
+    height: 165px;
+    padding: 30px 30px 30px 30px;
+    font-size: 37px;
+    color: #000000;
 
  }
+
+.time2 {
+
+ 	width: 96px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 162px 0px 30px 30px;
+    color: #9CA1A9;
+
+	}
+
+
+
+.column_time {
+
+	margin-top: 50px;
+	color: #9CA1A9;
+}
+
 
