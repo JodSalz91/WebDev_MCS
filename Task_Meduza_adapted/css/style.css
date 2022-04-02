@@ -1,0 +1,365 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Playfair+Display&family=Raleway:wght@100&display=swap');
+
+.bodycontent {
+
+	
+	height: 2355px;
+	background: black;	
+}
+
+.logo_nav {
+
+	min-height: 50px;
+	padding: 40px 60px 40px 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.navlist li { 
+
+display: inline;
+margin-right: 10px;
+
+ }
+
+ .navlist a {
+
+color: white;
+
+ }
+
+ .icons li {
+
+display: inline;
+margin-right: 6px;
+
+ }
+
+ #news {
+
+ 	color: #A37846;
+ 	
+ }
+
+ #lang {
+
+ 	color: white;
+ 	position: relative;
+    bottom: 5px;
+ }
+
+ #part {
+
+	position: relative;
+    right: 5px;
+
+ }
+
+ #search {
+ 	position: relative;
+    bottom: 3px;
+ }
+
+.headwindow { 
+
+width: 90vw;
+max-height: 56px;
+display: flex;
+justify-content: space-between;
+background-color: white;
+margin: auto;
+border-radius: 10px;
+border: 0.1px solid white;
+box-sizing: border-box;
+position: relative;
+
+
+ }
+
+ .currency {
+
+ 	width: 134px;
+ 	height: 20px;
+ 	padding: 20px;
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space space-between;
+ }
+
+ .currencylist {
+
+ 	padding-right: 13px;
+ }
+
+.currencylist li {
+
+	display: inline;
+	color: black;
+
+}
+
+.text_switcher { 
+
+
+width: 290px;
+padding: 20px;
+
+
+ }
+
+ .switcher li {
+
+ 	display:  inline;
+ 	margin-right: 5px;
+ 	color: #9CA1A9;
+
+ }
+
+ .switcher {
+
+ 	margin: -10px;
+ }
+
+ #circle2 {
+
+ 	position: relative;
+    right: 50px;
+    bottom: -2px;
+
+ }
+
+ #rectangle {
+
+ 	position: relative;
+ 	top: 4px;
+ }
+
+
+.mainsection {
+
+width: 90vw;
+height: 1494px;
+margin-top: 40px;
+background: #F2F2F2;
+border-radius: 10px 10px 0px 0px;
+margin-left: 60px;
+margin-right: 60px;
+padding-top: 60px;
+
+
+}
+
+.first_block { 
+
+width: 80vw;
+height: 250px;
+margin-left: 60px;
+margin-right: 60px;
+padding: 20px;
+background: #FFFFFF;
+border: 5px solid #A37846;
+box-sizing: border-box;
+border-radius: 10px;
+
+ }
+
+.fb_description {
+
+	
+   height: 100px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 2.5rem;
+	line-height: 50px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 70px;
+
+}
+
+
+.time1 {
+
+	
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	
+}
+
+.second_block {
+
+	 display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    height: 547px;
+    background: #FFFFFF;
+    border: 1px solid #9CA1A9;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+
+
+}
+
+.descr_big {
+	display: flex;
+    width: 500px;
+    flex-direction: column;
+    height: 436px;
+    padding-top: 30px;
+	
+}
+
+.decr_little {
+	
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    flex-wrap: wrap;
+    height: 430px;
+    vertical-align: top;
+    padding-top: 30px;
+}
+
+
+
+.news1 {
+
+    width: 250px;
+    height: 115px;
+    margin: 5px;
+    font-size: 1rem;
+}
+
+.text_big { 
+
+    height: 165px;
+    padding: 30px 30px 30px 30px;
+    font-size: 2rem;
+    color: #000000;
+
+
+ }
+
+.time2 {
+
+ 	 
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 100px;
+    margin-left: 30px;
+    color: #9CA1A9;
+}
+
+	
+
+
+
+.column_time {
+
+	margin-top: 40px;
+	color: #9CA1A9;
+}
+
+.footerstyle {
+
+
+width: 80vw;
+height: 450px;
+margin: auto;
+box-sizing: border-box;
+margin-top: 40px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.column_footer { 
+
+	width: 210px;
+	height: 200px;
+	color: white;
+	position: relative;
+
+ }
+
+.footer_list li {
+
+margin-top: 5px;
+margin-left: 60px;
+
+}
+
+.footer_list a {
+
+	color: white;
+}
+
+.title_footer {
+
+margin-bottom: 40px;
+margin-top: 30px;
+text-transform: uppercase;
+font-size: 1rem;
+text-align: center;
+
+}
+
+
+.underline {
+ 	height: 10px;
+ 	width: 1070px;
+	margin: auto;
+}
+
+.copyright {
+
+	width: 1000px;
+	height: 20px;
+	margin-left: 70px;
+	color: white;
+	
+	padding-top: 40px;
+	padding-left: 150px;
+	letter-spacing: -0.02em
+}
+
+#telegram li {
+
+	margin-left: 40px;
+}
+
+#our_projects li {
+
+	margin-left: 10px;
+}
+
+#contacts li {
+	margin-left: 20px;
+}
+
+#redaction {
+
+	margin-bottom: 30px;
+
+}
+
+#personal_data {
+
+margin-top: 38px;
+
+}
+
+#adverts li {
+
+	margin-left: 0px;
+}
