@@ -237,7 +237,7 @@ border-radius: 10px;
 .text_big { 
 
     padding: 30px 30px 30px 30px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #000000;
 
 
@@ -555,14 +555,20 @@ margin-top: 38px;
 }
 
 .underline {
-    width: inherit;
+    width: 80vw;
 }
 
 .copyright {
 
-    width: inherit;
+    width: 80vw;
     margin-left: 0px;
     padding-left: 0px;
+}
+
+.underline img {
+
+    display: block;
+    width: 80vw;
 }
 
 
