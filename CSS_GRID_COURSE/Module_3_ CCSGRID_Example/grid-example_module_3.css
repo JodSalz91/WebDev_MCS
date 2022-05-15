@@ -1,0 +1,79 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  padding: 50px;
+}
+
+main {
+
+  display: grid; /*контейнер отображается как сетка*/
+  grid-gap: 0.5rem; /*задает отступ между секциями*/
+  grid-template-columns: [start] 10rem [second] 15rem [third] 5rem [end]; /*создает три колонки разной величины*/
+  grid-template-rows: 5rem 10rem  3rem auto; /*использовать если нужно задать высоту или доб колво строк 
+  Также вместо значений можно написать просто auto и тогда высота будет подстраиваться под контент*/
+}
+
+section {
+  background-color: #888;
+  color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.sect-a {
+
+/*
+grid-column-start: 1;
+grid-column-end: 3;
+
+задается если нужно чтобы контент занимал 2 и более ячеек.
+в данном примере контенг занимает 2 ячейка тк отчет идет от первой вертикальной линии*/
+
+grid-column-start: start;
+grid-column-end: third;
+
+/*если дали имя каждой колонке,то можно обращаться по именам*/
+
+/*третий быстрый вариант это прописать в одну линию
+grid-column: start/end;
+либо
+grid-column: 1/3;*/
+
+}
+
+.sect-c {
+
+grid-row: 2/4;
+/*обЪединение ячеек по вертикали*/
+
+}
+
+.sect-d {
+
+  grid-column: 2/end;
+}
+
+.sect-a::after {
+  content: 'Section A';
+}
+.sect-b::after {
+  content: 'Section B';
+}
+.sect-c::after {
+  content: 'Section C';
+}
+.sect-d::after {
+  content: 'Section D';
+}
+.sect-e::after {
+  content: 'Section E';
+}
+.sect-f::after {
+  content: 'Section F';
+}
+.sect-g::after {
+  content: 'Section G';
+}
