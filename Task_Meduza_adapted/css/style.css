@@ -353,11 +353,10 @@ text-align: center;
 
 .copyright {
 
-	width: 1000px;
-	margin-left: 70px;
+	
 	color: white;
 	padding-top: 40px;
-	padding-left: 150px;
+	text-align: center;
 	letter-spacing: -0.02em
 }
 
