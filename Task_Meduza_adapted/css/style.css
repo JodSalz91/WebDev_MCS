@@ -303,7 +303,6 @@ border-radius: 10px;
 
 .footerstyle {
 
-
 width: 80vw;
 margin: auto;
 box-sizing: border-box;
@@ -324,7 +323,7 @@ justify-content: space-between;
 .footer_list li {
 
 margin-top: 5px;
-margin-left: 60px;
+
 
 }
 
@@ -335,11 +334,11 @@ margin-left: 60px;
 
 .title_footer {
 
-margin-bottom: 40px;
-margin-top: 30px;
+margin-bottom: 30px;
+margin-top: 20px;
 text-transform: uppercase;
 font-size: 1rem;
-text-align: center;
+
 
 }
 
@@ -360,36 +359,7 @@ text-align: center;
 	letter-spacing: -0.02em
 }
 
-#telegram li {
 
-	margin-left: 40px;
-}
-
-#our_projects li {
-
-	margin-left: 10px;
-}
-
-#contacts li {
-	margin-left: 20px;
-}
-
-#redaction {
-
-	margin-bottom: 30px;
-
-}
-
-#personal_data {
-
-margin-top: 38px;
-
-}
-
-#adverts li {
-
-	margin-left: 0px;
-}
 
 .hamburger-menu {
     visibility: hidden;
@@ -492,7 +462,7 @@ margin-top: 38px;
   align-items: center;
   position: absolute;
   top: 40px;
-  left: 230px;
+  right: 50px;
 
   width: 30px;
   height: 26px;
@@ -529,7 +499,7 @@ margin-top: 38px;
   visibility: hidden;
   top: 0;
   left: -100%;
-  width: 300px;
+  width: 600px;
   height: 100%;
   margin: 0;
   padding: 80px 0;
@@ -549,6 +519,7 @@ margin-top: 38px;
   font-weight: 600;
   text-decoration: none;
   transition-duration: .25s;
+  text-align: center;
 }
 .navlist li:hover {
   background-color: #CFD8DC;
@@ -567,7 +538,8 @@ color: black;
 
     position: absolute;
     top: 40px;
-    left: 150px;
+    right: 0;
+    margin: 0 10px 0 10px;
 }
 
 
