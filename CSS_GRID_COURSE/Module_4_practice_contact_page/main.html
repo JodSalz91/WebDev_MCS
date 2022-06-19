@@ -27,21 +27,34 @@
     </nav>
 
     <aside class="special-offer">
-      <img src="https://via.placeholder.com/250" class="special-offer__image">
+      <img src="https://pokupki-prosto.ru/files/e92df84a-b701-472c-b8fd-1451b236a039-h-250.png" class="special-offer__image">
     </aside>
 
     <main class="content-area">
-      <h2>Добро пожаловать</h2>
+      <h2>Свяжитесь с нами!</h2>
 
-      <p>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      </p>
-
-      <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur
-      </p>
+      <form>  
+        <div class="form_filling">
+          <fieldset class="personal">
+            <label for="FIO">ФИО</label>
+            <input type="text" name="FIO" placeholder="Имя и фамилия">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" placeholder="yo@example.com">
+            <label for="phone">Номер телефона</label>
+            <input type="phone" name="phone" placeholder="+49 --- --- -- --">
+            <label for="password">Password</label>
+            <input type="password" name="password">
+            <label for="bitrh">Date of birth</label>
+            <input type="date" name="birth">
+          </fieldset>
+          <fieldset class="message">
+            <label for="message">Your message</label>
+            <textarea name="message">Type here</textarea>
+            <input type="checkbox" checked="true"> <span>Agree with rules of confedence</span>
+          </fieldset>
+            <input type="submit">
+          </form>
+        </div>
     </main>
 
     <aside class="latest-posts">

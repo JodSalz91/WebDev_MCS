@@ -1,0 +1,32 @@
+
+.container {
+
+display: grid;
+grid-template-columns: 4fr 4fr 4fr;
+margin: 0 5rem;
+grid-template-rows: 5rem;
+grid-gap: 2rem 1rem;
+grid-template-areas:
+    "headtext headtext headtext"
+    "myworks myworks myworks"
+    "footertext footertext footertext";
+}
+
+.headtext {
+
+grid-area: headtext;
+align-self: center;
+
+}
+
+.myworks {
+
+	grid-area: myworks;
+	align-self: center;
+}
+
+.footertext {
+
+	grid-area: footertext;
+	place-self: center end;
+}

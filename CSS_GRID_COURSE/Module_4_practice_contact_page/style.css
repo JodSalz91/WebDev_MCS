@@ -85,4 +85,19 @@ body {
   font-size: 1.1rem;
   line-height: 1.5;
 }
+
+form {
+  width: 80%;
+  margin: auto;
+}
+
+input, select, textarea {
+
+  display:block;
+  width: 100%;
+  font-size: 20px;
+  
+}
+
+
 /*=== End main content ===*/
