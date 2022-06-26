@@ -1,0 +1,25 @@
+main {
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+  grid-template-areas: 'header header header'
+    '. post more'
+    '. post related';
+  grid-gap: 2rem 1rem;
+}
+
+.post-header {
+  grid-area: header;
+}
+
+.post-body {
+  grid-area: post;
+}
+
+.more-topic {
+  grid-area: more;
+}
+
+.related-images {
+  grid-area: related;
+  place-self: center left;
+}

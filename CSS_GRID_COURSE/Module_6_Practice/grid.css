@@ -1,0 +1,60 @@
+main {
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+  grid-template-areas: 'header header header'
+    '. post more'
+    '. post related';
+  grid-gap: 2rem 1rem;
+}
+
+.post-header {
+  grid-area: header;
+}
+
+.post-body {
+  grid-area: post;
+}
+
+.more-topic {
+  grid-area: more;
+}
+
+.related-images {
+  grid-area: related;
+}
+
+@media all and (max-width: 1200px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'header header'
+      'post more'
+      'post related';
+  }
+
+  .post-body {
+    padding-left: 1rem;
+  }
+}
+
+@media all and (max-width: 962px) {
+  html {
+    font-size: 14px;
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'header header'
+      'post post'
+      'more related';
+  }
+}
+
+@media all and (max-width: 540px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'header'
+      'post'
+      'more'
+      'related';
+  }
+}

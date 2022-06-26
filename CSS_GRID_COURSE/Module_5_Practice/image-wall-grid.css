@@ -1,0 +1,22 @@
+.image-wall {
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(min-content, max-content));
+  grid-gap: 0.5rem 0.5rem;
+  grid-auto-rows: minmax(min-content, 250px);
+  grid-auto-flow: row;	
+}
+
+.large-img {
+  grid-area: 1/1/3/3;
+}
+
+.image-wall img {
+  max-width: 100%;
+  height: auto;
+  place-self: center center;
+}
+
+.image-wall .small-img {
+  min-width: 250px;
+}
